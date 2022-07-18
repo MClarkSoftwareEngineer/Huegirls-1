@@ -12,7 +12,7 @@ let opacity = 0;
         function fadeIn() {
             setInterval(show, 100);
         }
-  
+  /*Show function */
         function show() {
             opacity = Number(window.getComputedStyle(headerBackGround)
                              .getPropertyValue("opacity"));
