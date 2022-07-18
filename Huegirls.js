@@ -1,6 +1,6 @@
 const mysteryText = document.getElementsByTagName('h1')[0];
 const headerBackGround = document.getElementsByTagName('header')[0];
-
+/*text injector funciton */
 function textInjector() {
     mysteryText.innerText = "What is your skin type?";
 }
